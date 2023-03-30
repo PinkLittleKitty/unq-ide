@@ -466,9 +466,9 @@ E(document).ready(function () {
     E('.toggle-tools').on('click', function () {
         E(this).toggleClass('active');
         if (E(this).hasClass('active')) {
-            E(this).html('tools<span class="fa-solid fa-fw fa-chevron-up"></span>');
+            E(this).html('herramientas<span class="fa-solid fa-fw fa-chevron-up"></span>');
         } else {
-            E(this).html('tools<span class="fa-solid fa-fw fa-chevron-down"></span>');
+            E(this).html('herramientas<span class="fa-solid fa-fw fa-chevron-down"></span>');
         }
     });
     
